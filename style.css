@@ -1,10 +1,37 @@
+/* Global styling */
 body {
-    background-color: #000000;
-    color: #FFFFFF;
+    background-color: #000000; /* Black background */
+    color: #FFFFFF; /* White text */
+    font-family: 'Roboto', sans-serif; /* Custom font */
 }
+
+/* Styling for Streamlit widgets */
+.stButton button {
+    background-color: #333333; /* Dark button background */
+    color: #FFFFFF; /* White text on button */
+    border: none;
+}
+
+.stButton button:hover {
+    background-color: #555555; /* Lighter button background on hover */
+}
+
+.stTextInput input {
+    background-color: #1e1e1e; /* Dark background for text input */
+    color: #FFFFFF; /* White text */
+    border: 1px solid #444444; /* Slightly lighter border */
+}
+
+.stSelectbox div, .stSlider div {
+    background-color: #1e1e1e; /* Dark background for selectbox and slider */
+    color: #FFFFFF; /* White text */
+}
+
+.stMarkdown {
+    color: #FFFFFF; /* White text for Markdown */
+}
+
+/* Styling for expanded elements */
 .streamlit-expanderHeader {
-    color: #FFFFFF;
-}
-.css-1v3fvcr {
-    color: #FFFFFF;
+    color: #FFFFFF; /* White text for expander headers */
 }
