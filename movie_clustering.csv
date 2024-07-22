@@ -1,4 +1,4 @@
-tconst,numVotes,averageRating
+movie_id,numVotes,averageRating
 tt0002898,177,6.8
 tt0003883,456,7.2
 tt0006206,5470,7.3
